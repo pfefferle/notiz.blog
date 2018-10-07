@@ -2,17 +2,17 @@
 ID: 2745
 post_title: 'OpenWeb-Notizen: XAuth, OExchange, Firefox Sync, RDFa'
 author: Matthias Pfefferle
-post_date: 2010-06-02 20:09:15
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2010/06/02/openweb-notizen-xauth-oexchange-firefox-sync-rdfa/
 published: true
+post_date: 2010-06-02 20:09:15
 ---
 <strong>Chris Messina erklärt XAuth</strong>
 XAuth ist eine Art <em>Cross-Domain</em> Cookie mit dem man Versucht die Flut an Share, Like und Login Icons auf ein Minimum zu reduzieren.
 
-<object type="application/x-shockwave-flash" style="width:480px; height:360px" data="http://vimeo.com/moogaloop.swf?clip_id=12121710&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1"><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=12121710&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1"></param><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=12121710&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /></object>
+http://vimeo.com/12121710
 
 &raquo; <a href="http://vimeo.com/12121710">XAuth - an introduction</a>
 &raquo; <a href="http://xauth.org">Offizielle XAuth Seite</a>
@@ -20,7 +20,7 @@ XAuth ist eine Art <em>Cross-Domain</em> Cookie mit dem man Versucht die Flut an
 <strong>OExchange einfach erklärt</strong>
 OExchange ist ein offenes Protokoll um eine beliebige URL mit einem beliebigen Service im Web zu teilen. Die Demo zeigt die Funktionsweise von OExchange und welche Vorteile sich in Kombination mit z.B. XAuth ergeben.
 
-<object type="application/x-shockwave-flash" style="width:480px; height:290px" data="http://www.youtube.com/v/Be9ArGBUTco"><param name="movie" value="http://www.youtube.com/v/Be9ArGBUTco"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param></object>
+https://www.youtube.com/watch?v=Be9ArGBUTco
 
 &raquo; <a href="http://www.oexchange.org/demo/">OExchange in action</a>
 &raquo; <a href="http://www.oexchange.org/">Offizielle OExchange Seite</a>

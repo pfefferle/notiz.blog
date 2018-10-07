@@ -2,12 +2,12 @@
 ID: 545
 post_title: Katzencontent
 author: Matthias Pfefferle
-post_date: 2007-08-09 20:05:56
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2007/08/09/katzencontent/
 published: true
+post_date: 2007-08-09 20:05:56
 ---
 Damit ich auch endlich ein ECHTER Blogger bin und mich keiner mehr auslacht, gibts jetzt auch hier <a href="http://en.wikipedia.org/wiki/List_of_blogging_terms#C">Katzencontent</a>!
 

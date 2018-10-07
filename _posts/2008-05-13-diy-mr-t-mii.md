@@ -2,61 +2,64 @@
 ID: 858
 post_title: 'DIY: Mr. T Mii'
 author: Matthias Pfefferle
-post_date: 2008-05-13 19:09:07
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2008/05/13/diy-mr-t-mii/
 published: true
-aktt_tweeted:
-  - "1"
+post_date: 2008-05-13 19:09:07
 ---
-<img class="aligncenter" src="http://notiz.blog/wp-content/uploads/2008/05/mr-t-mii.jpg" alt="mr-t-mii.jpg" border="0" width="480" height="360" />
-<small>Quelle: <a href="http://www.famousmii.com/mii/mr-t-mii/">Famous Mii</a></small>
+<!-- wp:image {"align":"center"} -->
+<figure class="wp-block-image aligncenter"><img src="https://notiz.blog/wp-content/uploads/2008/05/mr-t-mii.jpg" alt="mr-t-mii.jpg" /></figure>
+<!-- /wp:image -->
 
-Wie man sich einen <a href="http://de.wikipedia.org/wiki/Mr._T">Mr. T</a> <a href="http://de.wikipedia.org/wiki/Mii">Mii</a> bastelt:
+<!-- wp:paragraph -->
+<p><br/> Quelle: <a href="http://www.famousmii.com/mii/mr-t-mii/">Famous Mii</a></p>
+<!-- /wp:paragraph -->
 
-<blockquote>Laurence Tureaud
-5/21/52
-Size- default
-Body- default
+<!-- wp:paragraph -->
+<p>Wie man sich einen <a href="http://de.wikipedia.org/wiki/Mr._T">Mr. T</a> <a href="http://de.wikipedia.org/wiki/Mii">Mii</a> bastelt:</p>
+<!-- /wp:paragraph -->
 
-Head- column 1, row 4
-color- column 2, row 2
+<!-- wp:quote -->
+<blockquote class="wp-block-quote">
+	<p>Laurence Tureaud<br/> 5/21/52
+		<br/> Size- default<br/> Body- default</p>
+	<p>Head- column 1, row 4<br/> color- column 2, row 2</p>
+	<p>Hair- page 3, column 1, row 4</p>
+	<p>Eyebrows- page 1, column 3, row 1<br/> color- black<br/> rotate- up 5x<br/> together- move 2x<br/> size- large 5x<br/> position- up 5x</p>
+	<p>Eyes- page 1, column 3, row 2</p>
+	<p>Nose- column 2, row 4<br/> position- down 1x</p>
+	<p>Mouth- page 2, column 3, row 4<br/> position- down 2x</p>
+	<p>Mustache- column 2, row 2<br/> size- large 4x</p>
+	<p>Beard- column 2, row 2</p>
+	<p>Shirt- black</p>
+</blockquote>
+<!-- /wp:quote -->
 
-Hair- page 3, column 1, row 4
+<!-- wp:paragraph -->
+<p>(<a href="http://www.famousmii.com/mii/mr-t-mii/">via</a>)</p>
+<!-- /wp:paragraph -->
 
-Eyebrows- page 1, column 3, row 1
-color- black
-rotate- up 5x
-together- move 2x
-size- large 5x
-position- up 5x
+<!-- wp:paragraph -->
+<p>Für die Audio-Visuellen unter euch gibt's natürlich auch ne Anleitung per Video:</p>
+<!-- /wp:paragraph -->
 
-Eyes- page 1, column 3, row 2
+<!-- wp:more -->
+<!--more-->
+<!-- /wp:more -->
 
-Nose- column 2, row 4
-position- down 1x
+<!-- wp:paragraph -->
+<p>Jetzt brauch ich nur noch ne Wii ;)</p>
+<!-- /wp:paragraph -->
 
-Mouth- page 2, column 3, row 4
-position- down 2x
+<!-- wp:paragraph -->
+<p>Weitere Anleitungen:</p>
+<!-- /wp:paragraph -->
 
-Mustache- column 2, row 2
-size- large 4x
-
-Beard- column 2, row 2
-
-Shirt- black</blockquote>
-
-(<a href="http://www.famousmii.com/mii/mr-t-mii/">via</a>)
-
-<!--more-->Für die Audio-Visuellen unter euch gibt's natürlich auch ne Anleitung per Video:
-
-<object type="application/x-shockwave-flash" style="width:425px; height:350px" data="http://www.youtube.com/v/LC-_zHVosN8"><param name="movie" value="http://www.youtube.com/v/LC-_zHVosN8"></param></object>
-
-Jetzt brauch ich nur noch ne Wii ;)
-
-Weitere Anleitungen:
-
-<ul><li><a href="http://www.miicharacters.com/index.php?mii=949">MiiCharacters.com</a></li>
-<li><a href="http://miiplaza.net/mii/3563">Mii Plaza.net</a></li></ul>
+<!-- wp:list -->
+<ul>
+	<li><a href="http://www.miicharacters.com/index.php?mii=949">MiiCharacters.com</a></li>
+	<li><a href="http://miiplaza.net/mii/3563">Mii Plaza.net</a></li>
+</ul>
+<!-- /wp:list -->

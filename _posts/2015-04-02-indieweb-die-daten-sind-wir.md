@@ -2,12 +2,12 @@
 ID: 13672
 post_title: 'IndieWeb &#8211; Die Daten sind wir!'
 author: Matthias Pfefferle
-post_date: 2015-04-02 22:21:29
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2015/04/02/indieweb-die-daten-sind-wir/
 published: true
+post_date: 2015-04-02 22:21:29
 ---
 Mein erster <strong>Titelthema</strong> Artikel :)
 

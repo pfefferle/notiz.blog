@@ -2,14 +2,12 @@
 ID: 762
 post_title: RDFa Basics
 author: Matthias Pfefferle
-post_date: 2008-03-02 14:58:54
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2008/03/02/rdfa-basics/
 published: true
-aktt_tweeted:
-  - "1"
+post_date: 2008-03-02 14:58:54
 ---
 Wer sich viel mit <a href="http://microformats.org">Microformats</a> beschäftigt, ist sicher schon öfters über den Begriff RDFa gestolpert. Die Idee, (X)HTML semantischer zu machen, ist bei beiden Formaten gleich, der Unterschied liegt hauptsächlich in der Syntax.
 Während Microformats ausschließlich auf HTML 4.01 bzw. XHTML 1.0 validen Tags und Attributen basiert:
@@ -36,7 +34,7 @@ Während Microformats ausschließlich auf HTML 4.01 bzw. XHTML 1.0 validen Tags 
 
 Eine gute Einführung in das Thema RDFa bietet das Video von Manu Sporny:
 
-<object type="application/x-shockwave-flash" style="width:425px; height:350px" data="http://www.youtube.com/v/ldl0m-5zLz4"><param name="movie" value="http://www.youtube.com/v/ldl0m-5zLz4"></param></object>
+https://www.youtube.com/watch?v=ldl0m-5zLz4
 
 Rein Technisch gesehen ist RDFa, durch die Nutzung von Namespaces und die bessere Skalierbarkeit durch URIs, definitiv der bessere Standard. Ich denke trotzdem nicht dass RDFa die Microformats in näherer Zukunft ablösen wird, da RDFa nur unter XHTML 2.0 möglich ist und (meines Wissens) im Konkurrenz-Format (X)HTML 5.0 nicht angedacht wird. Es ist deshalb notwendig beide Formate weiter voranzutreiben und so weit wie möglich auf einem einheitlichen Standard, wie z.B. der vCard im oben beschriebenen Beispiel, aufzubauen. Während der Übergangsphase ist es so relativ einfach mit <a href="http://www.w3.org/TR/grddl/"><abbr title="Gleaning Resource Descriptions from Dialects of Languages">GRDDL</abbr></a> zwischen den beiden Formaten zu transformieren.
  

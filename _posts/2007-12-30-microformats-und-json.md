@@ -2,28 +2,47 @@
 ID: 690
 post_title: Microformats und JSON
 author: Matthias Pfefferle
-post_date: 2007-12-30 23:58:32
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2007/12/30/microformats-und-json/
 published: true
+post_date: 2007-12-30 23:58:32
 ---
-Ich bin vor <a href="http://notiz.blog/2007/09/16/microjson-microformats-in-json/">einiger Zeit</a> schon auf das <a href="http://www.microjson.org">microJSON</a> Projekt gestoßen und fand die Idee, ein einheitliches JSON Format für alle <a href="http://microformats.org/">Microformats</a> zu erstellen, prinzipiell nicht schlecht, deshalb habe ich auch versucht microJSON für mein <a href="http://wordpress.org/extend/plugins/hcard-commenting/">hCard-Commenting</a> Script einzusetzen.
+<!-- wp:paragraph -->
+<p>Ich bin vor <a href="https://notiz.blog/2007/09/16/microjson-microformats-in-json/">einiger Zeit</a> schon auf das <a href="http://www.microjson.org">microJSON</a> Projekt gestoßen und fand die Idee, ein einheitliches JSON Format für alle <a href="http://microformats.org/">Microformats</a> zu erstellen, prinzipiell nicht schlecht, deshalb habe ich auch versucht microJSON für mein <a href="http://wordpress.org/extend/plugins/hcard-commenting/">hCard-Commenting</a> Script einzusetzen.</p>
+<!-- /wp:paragraph -->
 
-Bei genauerem Betrachten gibt es bei der <a href="http://microjson.org/wiki/JCard">jCard</a> aber zwei unschöne Eigenschaften:
-<ol><li>Das <code>n</code> Attribut wird in JSON als <code>name</code> dargestellt.</li>
-<li>Das <code>fn</code> Attribut wird gat nicht abgebildet.</li></ol>
+<!-- wp:paragraph -->
+<p>Bei genauerem Betrachten gibt es bei der <a href="http://microjson.org/wiki/JCard">jCard</a> aber zwei unschöne Eigenschaften:</p>
+<!-- /wp:paragraph -->
 
-Da ich, um den Username in den WordPress Kommentaren darzustellen, auf <code>fn</code> angewiesen bin, habe ich mir verschiedene andere "hCard to JSON" Services angeschaut.
+<!-- wp:list {"ordered":true} -->
+<ol>
+	<li>Das <code>n</code> Attribut wird in JSON als <code>name</code> dargestellt.</li>
+	<li>Das <code>fn</code> Attribut wird gat nicht abgebildet.</li>
+</ol>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Da ich, um den Username in den WordPress Kommentaren darzustellen, auf <code>fn</code> angewiesen bin, habe ich mir verschiedene andere "hCard to JSON" Services angeschaut.<br/>
+	<br/> Test-hCard: <a href="http://pfefferle.org/static/microformats/hcard-test.html">http://pfefferle.org/static/microformats/hcard-test.html</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:more -->
 <!--more-->
-Test-hCard: <a href="http://pfefferle.org/static/microformats/hcard-test.html">http://pfefferle.org/static/microformats/hcard-test.html</a>
+<!-- /wp:more -->
 
+<!-- wp:heading {"level":3} -->
 <h3>Überblick der einzelnen JSON Objekte</h3>
+<!-- /wp:heading -->
 
-<a href="http://microformatique.com/optimus/">Optimus</a>:
+<!-- wp:paragraph -->
+<p><a href="http://microformatique.com/optimus/">Optimus</a>:</p>
+<!-- /wp:paragraph -->
 
-<pre class="code">{
+<!-- wp:code -->
+<pre class="wp-block-code"><code>{
   from: "http://pfefferle.org/static/microformats/hcard-test.html",
   title: "hCard Test",
   hcard: {
@@ -47,11 +66,15 @@ Test-hCard: <a href="http://pfefferle.org/static/microformats/hcard-test.html">h
       "http://pfefferle.org/static/microformats/ymsgr:sendIM?yim"
     ]
   }
-}</pre>
+}</code></pre>
+<!-- /wp:code -->
 
-<a href="http://lab.backnetwork.com/ufXtract/">ufXtract</a>:
+<!-- wp:paragraph -->
+<p><a href="http://lab.backnetwork.com/ufXtract/">ufXtract</a>:</p>
+<!-- /wp:paragraph -->
 
-<pre class="code">// ufXtract 
+<!-- wp:code -->
+<pre class="wp-block-code"><code>// ufXtract 
 {
   "vcard": [{
     "fn": "Mustermann Max",
@@ -77,12 +100,15 @@ Test-hCard: <a href="http://pfefferle.org/static/microformats/hcard-test.html">h
       "ymsgr:sendIM?yim"
     ]
   }]
-}
-</pre>
+}</code></pre>
+<!-- /wp:code -->
 
-<a href="http://tools.microformatic.com/help/xhtml/hkit/">hKit Service</a> (hKit + JSON)
+<!-- wp:paragraph -->
+<p><a href="http://tools.microformatic.com/help/xhtml/hkit/">hKit Service</a> (hKit + JSON)</p>
+<!-- /wp:paragraph -->
 
-<pre class="code">json[{
+<!-- wp:code -->
+<pre class="wp-block-code"><code>json[{
   "fn":"Mustermann Max",
   "adr":{
     "street-address":"Street",
@@ -103,11 +129,15 @@ Test-hCard: <a href="http://pfefferle.org/static/microformats/hcard-test.html">h
     "given-name":"Mustermann",
     "family-name":"Max"
   }
-}]</pre>
+}]</code></pre>
+<!-- /wp:code -->
 
-<a href="http://microjson.org/">microJSON</a> (<a href="http://microjson.org/wiki/JCard">jCard</a>)
+<!-- wp:paragraph -->
+<p><a href="http://microjson.org/">microJSON</a> (<a href="http://microjson.org/wiki/JCard">jCard</a>)</p>
+<!-- /wp:paragraph -->
 
-<pre class="code">{
+<!-- wp:code -->
+<pre class="wp-block-code"><code>{
 "vcard":{
   "name":{
     "given":"Mustermann",
@@ -126,14 +156,28 @@ Test-hCard: <a href="http://pfefferle.org/static/microformats/hcard-test.html">h
   "aim":"aim",
   "yim":"yim",
   "url":"http:\/\/example.org"
-}</pre>
+}</code></pre>
+<!-- /wp:code -->
 
-Leider unterscheidet sich jedes dieser JSON Formate (wenn auch teilweise nur gering) vom anderen, was ja prinzipiell kein wirklich großes Problem ist. Zum Problem wird es erst dann, wenn man einen dieser Dienste durch einen anderen ersetzt, da ein solcher Vorgang immer mit Änderungen am Quellcode verbunden ist.
+<!-- wp:paragraph -->
+<p>Leider unterscheidet sich jedes dieser JSON Formate (wenn auch teilweise nur gering) vom anderen, was ja prinzipiell kein wirklich großes Problem ist. Zum Problem wird es erst dann, wenn man einen dieser Dienste durch einen anderen ersetzt, da ein solcher Vorgang immer mit Änderungen am Quellcode verbunden ist.</p>
+<!-- /wp:paragraph -->
 
-Es ist im <a href="http://de.wikipedia.org/wiki/Serviceorientierte_Architektur"><abbr title="service oriented architecture">SOA</abbr></a> Ansatz zwar nicht definiert, dass die Services ähnlich wie bei der <a href="http://de.wikipedia.org/wiki/Mehrschichtige_Architektur">Multi-Tier-Architektur</a> austauschbar sein sollten, es würde jedoch eine Menge an Arbeit erspahren.
+<!-- wp:paragraph -->
+<p>Es ist im <a href="http://de.wikipedia.org/wiki/Serviceorientierte_Architektur"><abbr title="service oriented architecture">SOA</abbr></a> Ansatz zwar nicht definiert, dass die Services ähnlich wie bei der <a href="http://de.wikipedia.org/wiki/Mehrschichtige_Architektur">Multi-Tier-Architektur</a> austauschbar sein sollten, es würde jedoch eine Menge an Arbeit erspahren.</p>
+<!-- /wp:paragraph -->
 
-Microformats sind wohl definierte offene Standards, wieso nicht auch die Austauschformate wohl definieren?
+<!-- wp:paragraph -->
+<p>Microformats sind wohl definierte offene Standards, wieso nicht auch die Austauschformate wohl definieren?</p>
+<!-- /wp:paragraph -->
 
-Weiterführende Links:
-<ul><li><a href="http://microformats.org/wiki/json">JSON im Microformats Wiki</a></li>
-<li><a href="http://microjson.org/wiki/">microJSON Wiki</a></li></ul>
+<!-- wp:paragraph -->
+<p>Weiterführende Links:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul>
+	<li><a href="http://microformats.org/wiki/json">JSON im Microformats Wiki</a></li>
+	<li><a href="http://microjson.org/wiki/">microJSON Wiki</a></li>
+</ul>
+<!-- /wp:list -->

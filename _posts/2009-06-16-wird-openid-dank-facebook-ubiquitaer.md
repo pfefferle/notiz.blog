@@ -2,20 +2,20 @@
 ID: 1675
 post_title: Wird OpenID dank Facebook ubiquitär?
 author: Matthias Pfefferle
-post_date: 2009-06-16 22:28:41
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2009/06/16/wird-openid-dank-facebook-ubiquitaer/
 published: true
+post_date: 2009-06-16 22:28:41
 ---
 Ich habe es endlich geschafft! Ich habe den automatischen Facebook OpenID-Login erfolgreich getestet :)
 
-Ursprünglich hab ich den Auto-Login mit Google probiert, das wollte aber nicht so ganz funktionieren (ähnliche Problematik wie bei <a href="http://notsorelevant.com/2009-06-08/facebook-is-a-relying-party-but/">Carsten</a>), also hab ich es (nachdem mich <a href="http://joss.blogs.lincoln.ac.uk/2009/06/16/facebooks-transparent-use-of-openid/">Joss Winn mit seinem Blog-Post</a> nochmal an das neue Facebook-Feature erinnert hat) noch mal mit einem anderen OpenID-Provider getestet und siehe da, mit <a href="http://www.myopenid.com/">myOpenID</a> funktioniert es.
+Ursprünglich hab ich den Auto-Login mit Google probiert, das wollte aber nicht so ganz funktionieren (ähnliche Problematik wie bei <a href="https://web.archive.org/web/http://notsorelevant.com/2009-06-08/facebook-is-a-relying-party-but/">Carsten</a>), also hab ich es (nachdem mich <a href="http://joss.blogs.lincoln.ac.uk/2009/06/16/facebooks-transparent-use-of-openid/">Joss Winn mit seinem Blog-Post</a> nochmal an das neue Facebook-Feature erinnert hat) noch mal mit einem anderen OpenID-Provider getestet und siehe da, mit <a href="http://www.myopenid.com/">myOpenID</a> funktioniert es.
 
 Um OpenID für Facebook zu aktivieren, muss man in den <a href="https://register.facebook.com/editaccount.php">Einstellungen</a> seinen Account mit einer OpenID verknüpfen (am Besten man probiert es mit myOpenID). 
 
-<img src="http://notiz.blog/wp-content/uploads/2009/06/facebook-openid.png" alt="Facebooks OpenID Settings" width="480" height="142" class="aligncenter" />
+<img src="https://notiz.blog/wp-content/uploads/2009/06/facebook-openid.png" alt="Facebooks OpenID Settings" width="480" height="142" class="aligncenter" />
 
 Um es zu testen, muss man sich einfach bei Facebook (bloß nicht bei myOpenID, sonst funktionierts natürlich nicht) abmelden und wieder auf "<a href="http://facebook.com">http://facebook.com</a>" gehen und schwups... wird man wieder angemeldet... ganz automatisch... ohne etwas zu tun...
 

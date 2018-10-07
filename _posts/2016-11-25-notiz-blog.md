@@ -2,21 +2,12 @@
 ID: 14486
 post_title: notiz.Blog
 author: Matthias Pfefferle
-post_date: 2016-11-25 08:51:31
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2016/11/25/notiz-blog/
 published: true
-geo_latitude:
-  - "48.951050079853"
-geo_longitude:
-  - "8.3796559777449"
-geo_public:
-  - "1"
-  - "1"
-openid_comments:
-  - 'a:1:{i:0;i:771925;}'
+post_date: 2016-11-25 08:51:31
 ---
 Eine neue Domain ist vollkommen unnötig und zeitaufwändig:
 <ul>

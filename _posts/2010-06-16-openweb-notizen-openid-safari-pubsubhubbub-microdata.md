@@ -2,29 +2,41 @@
 ID: 2860
 post_title: 'OpenWeb-Notizen: OpenID, Safari, pubsubhubbub, microdata'
 author: Matthias Pfefferle
-post_date: 2010-06-16 20:10:03
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2010/06/16/openweb-notizen-openid-safari-pubsubhubbub-microdata/
 published: true
+post_date: 2010-06-16 20:10:03
 ---
-<strong>OpenID-Plugin für Safari</strong>
-Safari 5 (mit Addon-Support) ist gerade mal eine starken Woche alt und schon gibt es die erste OpenID-Erweiterung.
+<!-- wp:paragraph -->
+<p><strong>OpenID-Plugin für Safari</strong><br/> Safari 5 (mit Addon-Support) ist gerade mal eine starken Woche alt und schon gibt es die erste OpenID-Erweiterung.</p>
+<!-- /wp:paragraph -->
 
-<img src="http://notiz.blog/wp-content/uploads/2010/06/openid-plugin-safari.jpg" alt="OpenID-Plugin für Safari" title="OpenID-Plugin für Safari" width="480" height="374" class="aligncenter size-full wp-image-2866" />
+<!-- wp:image {"id":2866,"align":"center"} -->
+<figure class="wp-block-image aligncenter"><img src="https://notiz.blog/wp-content/uploads/2010/06/openid-plugin-safari.jpg" alt="OpenID-Plugin für Safari" class="wp-image-2866" /></figure>
+<!-- /wp:image -->
 
-Das Plugin kann zwar nicht viel mehr als OpenID-Felder automatisch auszufüllen, aber wie heißt es so schön... immerhin mal ein Anfang.
+<!-- wp:paragraph -->
+<p>Das Plugin kann zwar nicht viel mehr als OpenID-Felder automatisch auszufüllen, aber wie heißt es so schön... immerhin mal ein Anfang.</p>
+<!-- /wp:paragraph -->
 
-&raquo; <a href="http://github.com/josh/openid.safariextension" rel="bookmark">openid.safariextension</a>
+<!-- wp:paragraph -->
+<p>» <a href="http://github.com/josh/openid.safariextension">openid.safariextension</a></p>
+<!-- /wp:paragraph -->
 
-<strong>{ "protocol":"pubsubhubbub", "format":"json" }</strong>
-Monica Keller (Facebook) und Martin Atkins (Six Apart) arbeiten an einer <abbr title="JavaScript Object Notation">JSON</abbr>-Variante von pubsubhubbub. Besonders Facebook, deren OpenGraph-API ausschließlich auf der JavaScript serialisierung basiert, scheint großes Interesse an dem offenen Push-Protokoll zu haben. Schön dass der Internet-Gigant sich die Mühe gibt, einen Standard voran zu treiben, anstatt ein eigenes Format zu entwickeln.
+<!-- wp:paragraph -->
+<p><strong>{ "protocol":"pubsubhubbub", "format":"json" }</strong><br/> Monica Keller (Facebook) und Martin Atkins (Six Apart) arbeiten an einer <abbr title="JavaScript Object Notation">JSON</abbr>-Variante von pubsubhubbub. Besonders Facebook, deren OpenGraph-API ausschließlich auf der JavaScript serialisierung basiert, scheint großes Interesse an dem offenen Push-Protokoll zu haben. Schön dass der Internet-Gigant sich die Mühe gibt, einen Standard voran zu treiben, anstatt ein eigenes Format zu entwickeln.</p>
+<!-- /wp:paragraph -->
 
-&raquo; <a href="http://martin.atkins.me.uk/specs/pubsubhubbub-json" rel="bookmark">Spec: PubSubHubbub for JSON</a>
-&raquo; <a href="http://groups.google.com/group/pubsubhubbub/browse_thread/thread/3fcadeef1683f563" rel="bookmark">Talk: PubSubHubbub for JSON</a>
+<!-- wp:paragraph -->
+<p>» <a href="http://martin.atkins.me.uk/specs/pubsubhubbub-json">Spec: PubSubHubbub for JSON</a><br/> » <a href="http://groups.google.com/group/pubsubhubbub/browse_thread/thread/3fcadeef1683f563">Talk: PubSubHubbub for JSON</a></p>
+<!-- /wp:paragraph -->
 
-<strong>HTML5 Microdata</strong>
-Ein weiterer ausführlicher Artikel über Microdata mit ein paar schönen Anwendungsfällen.
+<!-- wp:paragraph -->
+<p><strong>HTML5 Microdata</strong><br/> Ein weiterer ausführlicher Artikel über Microdata mit ein paar schönen Anwendungsfällen.</p>
+<!-- /wp:paragraph -->
 
-&raquo; <a href="http://net.tutsplus.com/tutorials/html-css-techniques/html5-microdata-welcome-to-the-machine/">HTML5 Microdata: Welcome to the Machine</a>
+<!-- wp:paragraph -->
+<p>» <a href="http://net.tutsplus.com/tutorials/html-css-techniques/html5-microdata-welcome-to-the-machine/">HTML5 Microdata: Welcome to the Machine</a></p>
+<!-- /wp:paragraph -->

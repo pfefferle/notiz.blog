@@ -2,20 +2,18 @@
 ID: 964
 post_title: Der Safari ist schuld!
 author: Matthias Pfefferle
-post_date: 2008-07-22 08:41:08
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2008/07/22/der-safari-ist-schuld/
 published: true
-aktt_tweeted:
-  - "1"
+post_date: 2008-07-22 08:41:08
 ---
-Gestern habe ich durch Zufall den Schuldigen für die <a href="http://notiz.blog/2008/06/24/bbc-und-das-alte-haccessibility-problemchen/"><em>abbr-desing-pattern</em> - Misere</a> gefunden... Der Safari ist Schuld!
+Gestern habe ich durch Zufall den Schuldigen für die <a href="https://notiz.blog/2008/06/24/bbc-und-das-alte-haccessibility-problemchen/"><em>abbr-desing-pattern</em> - Misere</a> gefunden... Der Safari ist Schuld!
 
 Ursprünglich war das <code>object</code>-Tag zum Anzeigen des Datums vorgesehen:
 
-<code>&lt;object data="20050125"&gt;January 25&lt;/object&gt;</code>
+<pre><code>&lt;object data="20050125"&gt;January 25&lt;/object&gt;</code></pre>
 
 Aber...
 

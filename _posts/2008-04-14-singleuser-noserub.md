@@ -2,35 +2,57 @@
 ID: 812
 post_title: SingleUser NoseRub
 author: Matthias Pfefferle
-post_date: 2008-04-14 19:22:10
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2008/04/14/singleuser-noserub/
 published: true
-aktt_notify_twitter:
-  - 'no'
+post_date: 2008-04-14 19:22:10
 ---
-Eigentlich wollte ich <a href="http://noserub.com/">NoseRub</a> schon vor ner ganze Weile mal testen, jetzt habe ich die seit vorgestern erhältliche <a href="http://noserub.com/blog/archives/52-NoseRub-0.6-released.html">Version 0.6</a> zum Anlass genommen, NoseRub mal auf meinem Server zu installieren: <a href="http://pfefferle.org">pfefferle.org</a>
+<!-- wp:paragraph -->
+<p>Eigentlich wollte ich <a href="http://noserub.com/">NoseRub</a> schon vor ner ganze Weile mal testen, jetzt habe ich die seit vorgestern erhältliche <a href="http://noserub.com/blog/archives/52-NoseRub-0.6-released.html">Version 0.6</a> zum Anlass genommen, NoseRub mal auf meinem Server zu installieren: <a href="http://pfefferle.org">pfefferle.org</a></p>
+<!-- /wp:paragraph -->
 
-Wer NoseRub, wie ich als SingleUser-System auf seinem Server/Webspace hosten will (anstatt als Service wie <a href="http://identoo.com/">Identoo.com</a>) muss nur zwei Dinge beachten:
+<!-- wp:paragraph -->
+<p>Wer NoseRub, wie ich als SingleUser-System auf seinem Server/Webspace hosten will (anstatt als Service wie <a href="http://identoo.com/">Identoo.com</a>) muss nur zwei Dinge beachten:</p>
+<!-- /wp:paragraph -->
 
+<!-- wp:heading {"level":4} -->
 <h4>NoseRub Registration Type</h4>
+<!-- /wp:heading -->
 
-Zuerst sollte man sicherstellen dass sich keiner bei NoseRub registrieren kann, dazu einfach die Datei "<code>app/config/noserub.php</code>" öffnen und den <code>NOSERUB_REGISTRATION_TYPE</code> auf <code>none</code> setzen.
+<!-- wp:paragraph -->
+<p>Zuerst sollte man sicherstellen dass sich keiner bei NoseRub registrieren kann, dazu einfach die Datei "<code>app/config/noserub.php</code>" öffnen und den <code>NOSERUB_REGISTRATION_TYPE</code> auf <code>none</code> setzen.</p>
+<!-- /wp:paragraph -->
 
-<p class="code">define('NOSERUB_REGISTRATION_TYPE', 'none');</p>
+<!-- wp:code -->
+<pre class="wp-block-code"><code>define('NOSERUB_REGISTRATION_TYPE', 'none');</code></pre>
+<!-- /wp:code -->
 
+<!-- wp:heading {"level":4} -->
 <h4>SocialStream durch "My Profile" ersetzen</h4>
+<!-- /wp:heading -->
 
-Im zweiten Schritt kann man die Startseite (SocialStream) durch sein eigenes Profil ersetzen. Hierzu muss man in der "<code>app/config/routes.php</code>" einfach nur die Zeile
+<!-- wp:paragraph -->
+<p>Im zweiten Schritt kann man die Startseite (SocialStream) durch sein eigenes Profil ersetzen. Hierzu muss man in der "<code>app/config/routes.php</code>" einfach nur die Zeile</p>
+<!-- /wp:paragraph -->
 
-<p class="code">Router::connect('/', array('controller' => 'identities', 'action' => 'social_stream'));</p>
+<!-- wp:code -->
+<pre class="wp-block-code"><code>Router::connect('/', array('controller' => 'identities', 'action' => 'social_stream'));</code></pre>
+<!-- /wp:code -->
 
-...mit...
+<!-- wp:paragraph -->
+<p>...mit...</p>
+<!-- /wp:paragraph -->
 
-<p class="code">Router::connect('/', array('controller' => 'identities', 'action' => 'index', 'username' => '<strong>USERNAME</strong>'));</p>
+<!-- wp:code -->
+<pre class="wp-block-code"><code>Router::connect('/', array('controller' => 'identities', 'action' => 'index', 'username' => 'USERNAME'));</code></pre>
+<!-- /wp:code -->
 
-...ersetzen und statt <strong>USERNAME</strong> den eigenen Benutzernamen eintragen. Das wars eigentlich schon.
+<!-- wp:paragraph -->
+<p>...ersetzen und statt <strong>USERNAME</strong> den eigenen Benutzernamen eintragen. Das wars eigentlich schon.</p>
+<!-- /wp:paragraph -->
 
-Viel Spaß beim ausprobieren :)
+<!-- wp:paragraph -->
+<p>Viel Spaß beim ausprobieren :)</p>
+<!-- /wp:paragraph -->

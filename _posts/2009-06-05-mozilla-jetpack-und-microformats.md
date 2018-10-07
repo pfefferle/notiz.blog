@@ -2,18 +2,18 @@
 ID: 1627
 post_title: Mozilla Jetpack (und Microformats)
 author: Matthias Pfefferle
-post_date: 2009-06-05 08:50:38
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2009/06/05/mozilla-jetpack-und-microformats/
 published: true
+post_date: 2009-06-05 08:50:38
 ---
 <a href="https://jetpack.mozillalabs.com">Jetpack</a> ist das jüngste Baby der <em>Mozilla Labs</em> und bietet eine Art API, die es Entwicklern ermöglicht, den Firefox mit klassischen Web-Techniken (HTML, JavaScript und CSS) zu erweitern. Statt mit <abbr title="XML User Interface Language"><a href="http://www.mozilla.org/projects/xul/">XUL</a></abbr> kann man seine Firefox Addons demnächst vielleicht wirklich mit HTML und CSS gestalten. Großartige Idee!
 
 https://vimeo.com/4752576
 
-Übrigens unterstützt Jetpack, <a href="http://notiz.blog/2008/09/16/ubiquity-und-microformats/">wie auch Ubiquity</a>, die ab der Version 3 in Firefox nativ implementierte <a href="https://developer.mozilla.org/En/Using_microformats">Microformats API</a>. Der folgende Code zeigt, wie man die Microformats API in Jetpack-Skripte integrieren kann. Das Beispiel zählt z.B. alle hCards der Seite, auf der man sich gerade befindet und zeigt das Ergebnis per Info-Message an:
+Übrigens unterstützt Jetpack, <a href="https://notiz.blog/2008/09/16/ubiquity-und-microformats/">wie auch Ubiquity</a>, die ab der Version 3 in Firefox nativ implementierte <a href="https://developer.mozilla.org/En/Using_microformats">Microformats API</a>. Der folgende Code zeigt, wie man die Microformats API in Jetpack-Skripte integrieren kann. Das Beispiel zählt z.B. alle hCards der Seite, auf der man sich gerade befindet und zeigt das Ergebnis per Info-Message an:
 
 <pre>Components.utils.import("resource://gre/modules/Microformats.js");
 

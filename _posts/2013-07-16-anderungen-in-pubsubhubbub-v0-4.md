@@ -2,14 +2,14 @@
 ID: 5420
 post_title: Änderungen in PubSubHubbub v0.4
 author: Matthias Pfefferle
-post_date: 2013-07-16 12:52:16
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2013/07/16/anderungen-in-pubsubhubbub-v0-4/
 published: true
+post_date: 2013-07-16 12:52:16
 ---
-<img src="http://notiz.blog/wp-content/uploads/2013/07/pubsubhubbub-logo.png" alt="pubsubhubbub-logo" width="113" height="38" class="alignright size-full wp-image-5423" />Seit ein paar Wochen scheint die <a href="https://superfeedr-misc.s3.amazonaws.com/pubsubhubbub-core-0.4.html#publishing">Version 0.4</a> von <a href="https://code.google.com/p/pubsubhubbub/">PubSubHubbub</a> relativ stabil zu sein... immerhin so stabil, dass <a href="http://googledevelopers.blogspot.de/2013/07/pubsubhubbub-feeds-and-feed-api.html">Google</a> und <a href="http://blog.superfeedr.com/pubsubhubbub-04/">Superfeedr</a> ihre Hubs an die neue Spec angepasst haben.
+<img src="//notiz.blog/wp-content/uploads/2013/07/pubsubhubbub-logo.png" alt="pubsubhubbub-logo" width="113" height="38" class="alignright size-full wp-image-5423" />Seit ein paar Wochen scheint die <a href="https://superfeedr-misc.s3.amazonaws.com/pubsubhubbub-core-0.4.html#publishing">Version 0.4</a> von <a href="https://code.google.com/p/pubsubhubbub/">PubSubHubbub</a> relativ stabil zu sein... immerhin so stabil, dass <a href="http://googledevelopers.blogspot.de/2013/07/pubsubhubbub-feeds-and-feed-api.html">Google</a> und <a href="http://blog.superfeedr.com/pubsubhubbub-04/">Superfeedr</a> ihre Hubs an die neue Spec angepasst haben.
 
 Die wesentlichen Unterschiede zu der Vorgängerversion sind:
 

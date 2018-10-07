@@ -2,14 +2,14 @@
 ID: 668
 post_title: Barcamp Rhein-Neckar Fazit
 author: Matthias Pfefferle
-post_date: 2007-11-28 00:26:04
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2007/11/28/barcamp-rhein-neckar-fazit/
 published: true
+post_date: 2007-11-28 00:26:04
 ---
-<img src='http://notiz.blog/wp-content/uploads/2007/10/barcamprn.jpg' alt='Barcamp Rhein-Neckar Logo' />
+<img src='https://notiz.blog/wp-content/uploads/2007/10/barcamprn.jpg' alt='Barcamp Rhein-Neckar Logo' />
 
 Am letzten Wochenende gab es zwei Barcamp Premieren: Das erste <a href="http://barcamp.org/">Barcamp</a> im <a href="http://www.barcamp-rhein-neckar.de/">Rhein-Neckar Gebiet</a> und mein erstes Barcamp.
 
@@ -19,7 +19,7 @@ Es hat mich natürlich auch gefreut <a href="http://www.basicthinking.de/blog/">
 
 <h3>Mein Microformats Vortrag</h3>
 
-<object type="application/x-shockwave-flash" style="width:425px; height:350px" data="http://static.slideshare.net/swf/ssplayer2.swf?doc=microformats-1196203791819890-2"><param name="movie" value="http://static.slideshare.net/swf/ssplayer2.swf?doc=microformats-1196203791819890-2"></param></object>
+https://www.slideshare.net/pfefferle/microformats-183072
 
 Wer sich meinen Vortrag zu Microformats nochmal anschauen möchte kann das gerne bei <a href="http://www.slideshare.net/pfefferle/microformats-183072/">Slideshare</a> tun oder die Kurzzusammenfassung bei <a href="http://www.timoheuer.com/2007/11/25/bcrn-session-microformats-fuer-einsteiger/">Timo</a> lesen.
 

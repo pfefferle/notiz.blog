@@ -2,12 +2,12 @@
 ID: 3374
 post_title: 'OpenWeb-Notizen: OpenID, XRD 1.0, Simple Web Discovery'
 author: Matthias Pfefferle
-post_date: 2010-11-15 22:49:28
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2010/11/15/openweb-notizen-openid-xrd-1-0-simple-web-discovery/
 published: true
+post_date: 2010-11-15 22:49:28
 ---
 <strong>Google veröffentlicht Tests mit OpenID</strong>
 Google hat vor einigen Tagen ein paar nette Dokumente/Demos/Videos veröffentlicht, die die Implementierung von OpenID vereinfachen soll.
@@ -33,4 +33,4 @@ XRD ist, wie schon erwähnt, wesentlich simpler als XRDS oder XRDS -Simple, aber
 
 &raquo; <a href="http://self-issued.info/docs/draft-jones-simple-web-discovery-00.html" rel="bookmark">Simple Web Discovery (SWD)</a>
 
-Ach ja... Carsten Pötter bloggt übrigens wieder über OpenID. <a href="http://notsorelevant.com/">Lesen</a>!
+Ach ja... Carsten Pötter bloggt übrigens wieder über OpenID. <a href="https://web.archive.org/web/http://notsorelevant.com/">Lesen</a>!

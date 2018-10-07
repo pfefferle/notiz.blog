@@ -2,20 +2,29 @@
 ID: 790
 post_title: Mr. T versus Wolverine
 author: Matthias Pfefferle
-post_date: 2008-04-01 17:59:19
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2008/04/01/mr-t-versus-wolverine/
 published: true
-aktt_tweeted:
-  - "1"
+post_date: 2008-04-01 17:59:19
 ---
-<a href="http://www.mohawkmedia.co.uk/">MohawkMedia</a> (Die Macher des neuen <a href="http://notiz.blog/2008/03/26/mr-t-bekommt-eine-neue-comic-serie/">Mr. T - Comics</a>) setzen die Reihe "<a href="http://www.mrtvseverything.com/">Mr. T vs. Everything</a>" jetzt auch in ihren <a href="http://www.mohawkmedia.co.uk/mrtversus.htm">Comics</a> um.
+<!-- wp:paragraph -->
+<p><a href="http://www.mohawkmedia.co.uk/">MohawkMedia</a> (Die Macher des neuen <a href="https://notiz.blog/2008/03/26/mr-t-bekommt-eine-neue-comic-serie/">Mr. T - Comics</a>) setzen die Reihe "<a href="http://www.mrtvseverything.com/">Mr. T vs. Everything</a>" jetzt auch in ihren <a href="http://www.mohawkmedia.co.uk/mrtversus.htm">Comics</a> um.</p>
+<!-- /wp:paragraph -->
 
-Mein Favorit: Mr. T vs. Wolverine
+<!-- wp:paragraph -->
+<p>Mein Favorit: Mr. T vs. Wolverine</p>
+<!-- /wp:paragraph -->
 
-<img class="aligncenter" src="http://notiz.blog/wp-content/uploads/2008/04/tvsclaw.jpg" alt="TvsClaw.jpg" border="0" width="450" height="724" />
-<small>Quelle: <a href="http://www.mohawkmedia.co.uk/mrtversus.htm">mohawkmedia.co.uk</a></small>
+<!-- wp:image {"align":"center"} -->
+<figure class="wp-block-image aligncenter"><img src="https://notiz.blog/wp-content/uploads/2008/04/tvsclaw.jpg" alt="TvsClaw.jpg" /></figure>
+<!-- /wp:image -->
 
-Schade dass es sich bei dieser Ankündigung nur um einen <a href="http://www.mohawkmedia.co.uk/mrtversus.htm">Aprilscherz</a> handelt :)
+<!-- wp:paragraph -->
+<p><br/> Quelle: <a href="http://www.mohawkmedia.co.uk/mrtversus.htm">mohawkmedia.co.uk</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Schade dass es sich bei dieser Ankündigung nur um einen <a href="http://www.mohawkmedia.co.uk/mrtversus.htm">Aprilscherz</a> handelt :)</p>
+<!-- /wp:paragraph -->

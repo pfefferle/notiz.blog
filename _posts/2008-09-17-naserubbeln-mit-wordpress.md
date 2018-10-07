@@ -2,14 +2,12 @@
 ID: 1147
 post_title: Naserubbeln mit WordPress
 author: Matthias Pfefferle
-post_date: 2008-09-17 18:58:44
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2008/09/17/naserubbeln-mit-wordpress/
 published: true
-aktt_tweeted:
-  - "1"
+post_date: 2008-09-17 18:58:44
 ---
 NoseRub hat ein <a href="http://wordpress.org/extend/plugins/noserub-for-wordpress/">WordPress-Plugin</a>:
 

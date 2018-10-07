@@ -2,18 +2,18 @@
 ID: 2444
 post_title: Neue Identifier für den SearchMonkey
 author: Matthias Pfefferle
-post_date: 2010-02-21 15:51:54
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2010/02/21/neue-identifier-fuer-den-searchmonkey/
 published: true
+post_date: 2010-02-21 15:51:54
 ---
-Yahoo! ändert <a href="http://notiz.blog/2008/12/09/searchmonkey-bekommt-neue-formate/">mal wieder</a> die Identifier zum <a href="http://developer.yahoo.com/searchmonkey/">strukturierten Suchen</a>. Aus: <code>searchmonkeyid:com.yahoo.page.uf.hcard</code> wird: <code>searchmonkey:com.yahoo.page.uf.hcard</code>
+Yahoo! ändert <a href="https://notiz.blog/2008/12/09/searchmonkey-bekommt-neue-formate/">mal wieder</a> die Identifier zum <a href="http://developer.yahoo.com/searchmonkey/">strukturierten Suchen</a>. Aus: <code>searchmonkeyid:com.yahoo.page.uf.hcard</code> wird: <code>searchmonkey:com.yahoo.page.uf.hcard</code>
 
-<img src="http://notiz.blog/wp-content/uploads/2010/02/searchmonkey_com.yahoo_.page_.uf_.hcard_.jpg" alt="SearchMonkey: Structured Search" title="SearchMonkey: Structured Search" width="480" height="160" class="aligncenter size-full wp-image-2453" />
+<img src="https://notiz.blog/wp-content/uploads/2010/02/searchmonkey_com.yahoo_.page_.uf_.hcard_.jpg" alt="SearchMonkey: Structured Search" title="SearchMonkey: Structured Search" width="480" height="160" class="aligncenter size-full wp-image-2453" />
 
-Auch wenn ich mich <a href="http://notiz.blog/2010/02/18/neues-vom-searchmonkey/">wiederhole</a>: Hoffentlich schafft es Yahoo! den SearchMonkey demnächst etwas besser in die Standard-Suche zu integrieren. Man kann doch keinem normalen Menschen erzählen er müsse nach <strong>searchmonkey:com.yahoo.page.uf.hcard</strong> suchen um Profile zu finden :)
+Auch wenn ich mich <a href="https://notiz.blog/2010/02/18/neues-vom-searchmonkey/">wiederhole</a>: Hoffentlich schafft es Yahoo! den SearchMonkey demnächst etwas besser in die Standard-Suche zu integrieren. Man kann doch keinem normalen Menschen erzählen er müsse nach <strong>searchmonkey:com.yahoo.page.uf.hcard</strong> suchen um Profile zu finden :)
 
 Die aktualisierte Liste aller unterstützten Formate:
 <ul>

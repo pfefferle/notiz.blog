@@ -2,12 +2,12 @@
 ID: 5549
 post_title: Open App.net
 author: Matthias Pfefferle
-post_date: 2013-08-15 09:51:07
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2013/08/15/open-app-net/
 published: true
+post_date: 2013-08-15 09:51:07
 ---
 App.net hat endlich <a href="http://blog.app.net/2013/08/07/response-to-brennan-novak-part-ii/">alles nachgereicht</a> was Dalton Caldwell vor fast genau einem Jahr <a href="http://daltoncaldwell.com/a-response-to-brennan-novak">versprochen hat</a>. Die Liste kann sich echt sehen lassen:
 
@@ -27,4 +27,4 @@ Mal schauen was sich damit alles basteln lässt, immerhin hab ich im <a href="ht
 
 ;)
 
-via <a href="http://carstenpoetter.de/post/58307679406/app-net-offene-technologien">Carsten Pötter</a>
+via <a href="https://web.archive.org/web/20140117130434/http://carstenpoetter.de/post/58307679406/app-net-offene-technologien">Carsten Pötter</a>

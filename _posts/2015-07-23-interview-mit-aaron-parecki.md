@@ -2,12 +2,12 @@
 ID: 13777
 post_title: Interview mit Aaron Parecki
 author: Matthias Pfefferle
-post_date: 2015-07-23 21:57:05
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2015/07/23/interview-mit-aaron-parecki/
 published: true
+post_date: 2015-07-23 21:57:05
 ---
 Für das <a href="http://screengui.de">SCREENGUIDE Magazin</a> (<a href="http://screengui.de/26">Ausgabe 26</a>) wurde <a href="https://aaronparecki.com">Aaron Parecki</a> zum Thema <em><a href="http://indiewebcamp.com">Indie Web (Camp)</a></em> interviewt. Das abgedruckte Interview ist aus Platzgründen und für ein besseres Verständnis aber leicht gekürzt und ins deutsche übersetzt worden.
 
@@ -15,7 +15,7 @@ Mit freundlicher Genehmigung von <a href="http://textformer.de">Nicolai Schwarz<
 
 <strong>SCREENGUIDE: Hi Aaron, what are the reasons for founding IndieWeb respectively organizing the first IndieWebCamp?</strong>
 
-[caption id="attachment_13813" align="alignright" width="200"]<img src="http://notiz.blog/wp-content/uploads/2015/07/aaronpk-geoloqi.jpg" alt="Aaron Parecki, @aaronpk CTO bei Esri R&#38;D Center, Portland Mitgründer IndieWeb &#38; IndieWebCamp" width="200" height="302" class="size-full wp-image-13813" /> Aaron Parecki, @aaronpk<br />CTO bei Esri R&#38;D Center, Portland<br />Mitgründer IndieWeb &#38; IndieWebCamp[/caption]
+[caption id="attachment_13813" align="alignright" width="200"]<img src="//notiz.blog/wp-content/uploads/2015/07/aaronpk-geoloqi.jpg" alt="Aaron Parecki, @aaronpk CTO bei Esri R&#38;D Center, Portland Mitgründer IndieWeb &#38; IndieWebCamp" width="200" height="302" class="size-full wp-image-13813" /> Aaron Parecki, @aaronpk<br />CTO bei Esri R&#38;D Center, Portland<br />Mitgründer IndieWeb &#38; IndieWebCamp[/caption]
 
 Aaron Parecki: In 2010, <a href="http://tantek.com">Tantek Çelik</a> and I attended the "Federated Social Web Summit" in Portland, Oregon. After the event, we walked away feeling somewhat dissatisfied, and decided we wanted to take a slightly different approach. We wanted to focus on:
 

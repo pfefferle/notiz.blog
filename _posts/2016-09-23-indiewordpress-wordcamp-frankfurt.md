@@ -2,14 +2,12 @@
 ID: 14466
 post_title: 'IndieWordPress &#8211; WordCamp Frankfurt'
 author: Matthias Pfefferle
-post_date: 2016-09-23 10:46:38
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2016/09/23/indiewordpress-wordcamp-frankfurt/
 published: true
-openid_comments:
-  - 'a:1:{i:0;i:763967;}'
+post_date: 2016-09-23 10:46:38
 ---
 http://wordpress.tv/2016/09/06/matthias-pfefferle-indiewordpress/
 

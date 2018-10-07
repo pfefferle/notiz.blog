@@ -2,12 +2,12 @@
 ID: 422
 post_title: Microformats werden überall sein
 author: Matthias Pfefferle
-post_date: 2007-05-13 01:00:03
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2007/05/13/microformats-werden-ueberall-sein/
 published: true
+post_date: 2007-05-13 01:00:03
 ---
 Marc Canter, der Gründer und Geschäftsführer von Broadband Mechanics, Inc. und Initiator von <a href="http://structuredblogging.org/">Structured-Blogging</a> spricht im Interview mit Martin von <a href="http://entwickler.de/">entwickler.de</a> unter anderem auch über <a href="http://microformats.org">Microformats</a>.
 

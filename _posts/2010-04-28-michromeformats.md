@@ -2,15 +2,21 @@
 ID: 2617
 post_title: michromeformats
 author: Matthias Pfefferle
-post_date: 2010-04-28 18:39:10
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2010/04/28/michromeformats/
 published: true
+post_date: 2010-04-28 18:39:10
 ---
-Ein <a href="https://chrome.google.com/extensions/detail/oalbifknmclbnmjlljdemhjjlkmppjjl">Microformats-Plugin</a> für den <em>Google Chrome</em>: <a href="http://ryckbost.com/blog/archives/2010/04/21/chrome-microformats-michromeformats/">Chrome + microformats = michromeformats</a>
+<!-- wp:paragraph -->
+<p>Ein <a href="https://chrome.google.com/extensions/detail/oalbifknmclbnmjlljdemhjjlkmppjjl">Microformats-Plugin</a> für den <em>Google Chrome</em>: <a href="http://ryckbost.com/blog/archives/2010/04/21/chrome-microformats-michromeformats/">Chrome + microformats = michromeformats</a></p>
+<!-- /wp:paragraph -->
 
-<img src="http://notiz.blog/wp-content/uploads/2010/04/michromeformats.png" alt="Chrome + microformats = michromeformats" title="michromeformats" width="465" height="231" class="aligncenter size-full wp-image-2618" />
+<!-- wp:image {"id":2618,"align":"center"} -->
+<figure class="wp-block-image aligncenter"><img src="https://notiz.blog/wp-content/uploads/2010/04/michromeformats.png" alt="Chrome + microformats = michromeformats" class="wp-image-2618" /></figure>
+<!-- /wp:image -->
 
-...und es benutzt sogar ein paar <a href="http://notiz.blog/projects/microformats-icons/">meiner Icons</a> :)
+<!-- wp:paragraph -->
+<p>...und es benutzt sogar ein paar <a href="https://notiz.blog/projects/microformats-icons/">meiner Icons</a> :)</p>
+<!-- /wp:paragraph -->

@@ -2,20 +2,23 @@
 ID: 1141
 post_title: Ubiquity und Microformats
 author: Matthias Pfefferle
-post_date: 2008-09-16 20:38:37
 post_excerpt: ""
 layout: post
 permalink: >
   https://notiz.blog/2008/09/16/ubiquity-und-microformats/
 published: true
-aktt_tweeted:
-  - "1"
+post_date: 2008-09-16 20:38:37
 ---
-Ubiquity bietet (neben <a href="https://addons.mozilla.org/de/firefox/addon/4106">Operator</a>) endlich einen echten Anwendungsfall für die <em>Microformats Firefox API</em>. Die <a href="http://developer.mozilla.org/En/Using_microformats">Microformats API</a> basiert auf JavaScript und lässt sich somit auch direkt (und ohne viel Aufwand) in die <a href="https://wiki.mozilla.org/Labs/Ubiquity/Commands_In_The_Wild">Ubiquity-Commands</a> integrieren.
+<!-- wp:paragraph -->
+<p>Ubiquity bietet (neben <a href="https://addons.mozilla.org/de/firefox/addon/4106">Operator</a>) endlich einen echten Anwendungsfall für die <em>Microformats Firefox API</em>. Die <a href="http://developer.mozilla.org/En/Using_microformats">Microformats API</a> basiert auf JavaScript und lässt sich somit auch direkt (und ohne viel Aufwand) in die <a href="https://wiki.mozilla.org/Labs/Ubiquity/Commands_In_The_Wild">Ubiquity-Commands</a> integrieren.</p>
+<!-- /wp:paragraph -->
 
-Das folgende wirklich sinnvolle Beispiel zählt alle <a href="http://microformats.org/wiki/hCard">hCards</a> einer Seite und gibt das Ergebnis als <a href="https://wiki.mozilla.org/Labs/Ubiquity/Ubiquity_0.1_Author_Tutorial#Hello_World:_The_First_Command">System-Message</a> aus:
+<!-- wp:paragraph -->
+<p>Das folgende wirklich sinnvolle Beispiel zählt alle <a href="http://microformats.org/wiki/hCard">hCards</a> einer Seite und gibt das Ergebnis als <a href="https://wiki.mozilla.org/Labs/Ubiquity/Ubiquity_0.1_Author_Tutorial#Hello_World:_The_First_Command">System-Message</a> aus:</p>
+<!-- /wp:paragraph -->
 
-<pre>Components.utils.import("resource://gre/modules/Microformats.js");
+<!-- wp:code -->
+<pre class="wp-block-code"><code>Components.utils.import("resource://gre/modules/Microformats.js");
 CmdUtils.CreateCommand({
   name: "count-hcards",
   execute: function() {
@@ -23,18 +26,24 @@ CmdUtils.CreateCommand({
     var uFcount = Microformats.count('hCard', doc);
     displayMessage( uFcount );
   }
-})</pre>
+})</code></pre>
+<!-- /wp:code -->
 
-<span class="vcard"><a href="http://weborganics.co.uk" class="url fn">Martin McEvoy</a></span> hat ein paar wesentlich schickere Commands gebaut, die mit Hilfe des <a href="http://www.transformr.co.uk/">Transformrs</a> Mikroformate verarbeitet. Da für diese Verarbeitung ein Redirect (oder das öffnen einer zweiten Seite) notwendig ist, überprüft er mit Hilfe der Microformats-API zuerst ob sich die notwendigen Mikroformate überhaupt auf der Seite befinden.
+<!-- wp:paragraph -->
+<p><a href="http://weborganics.co.uk">Martin McEvoy</a> hat ein paar wesentlich schickere Commands gebaut, die mit Hilfe des <a href="http://www.transformr.co.uk/">Transformrs</a> Mikroformate verarbeitet. Da für diese Verarbeitung ein Redirect (oder das öffnen einer zweiten Seite) notwendig ist, überprüft er mit Hilfe der Microformats-API zuerst ob sich die notwendigen Mikroformate überhaupt auf der Seite befinden.</p>
+<!-- /wp:paragraph -->
 
-Der folgende Code (von Martin) testet z.B. ob mind. ein hCalendar verfügbar ist, bevor er diesen verarbeitet:
+<!-- wp:paragraph -->
+<p>Der folgende Code (von Martin) testet z.B. ob mind. ein hCalendar verfügbar ist, bevor er diesen verarbeitet:</p>
+<!-- /wp:paragraph -->
 
-<pre>CmdUtils.CreateCommand({
+<!-- wp:code -->
+<pre class="wp-block-code"><code>CmdUtils.CreateCommand({
   icon: "http://transformr.co.uk/favicon.ico",
   name: "get-webcal",
   author: {name: "Martin McEvoy", email: "weborganics@googlemail.com"},
   help: "Subscribe to a webcal feed using the 
-&lt;a href=\"http://microformats.org/wiki/hcalendar\"&gt;hCalendar&lt;/a&gt; Microformat.",
+&lt;a href=\"http://microformats.org/wiki/hcalendar\">hCalendar&lt;/a> Microformat.",
   preview: function ( pblock ) {
     pblock.innerHTML = "Subscribe to web calendar";
   },
@@ -49,8 +58,13 @@ Der folgende Code (von Martin) testet z.B. ob mind. ein hCalendar verfügbar ist
       displayMessage('Sorry No hCalendar Events Found!');
     }
   }
-})</pre>
+})</code></pre>
+<!-- /wp:code -->
 
-Quelle: <a href="http://transformr.co.uk/commands">http://transformr.co.uk/commands</a>
+<!-- wp:paragraph -->
+<p>Quelle: <a href="http://transformr.co.uk/commands">http://transformr.co.uk/commands</a></p>
+<!-- /wp:paragraph -->
 
-Weitere großartige Ubiquity-Commands im <a href="http://microformats.org/wiki/ubiquity">Microfromats-Wiki</a>...
+<!-- wp:paragraph -->
+<p>Weitere großartige Ubiquity-Commands im <a href="http://microformats.org/wiki/ubiquity">Microfromats-Wiki</a>...</p>
+<!-- /wp:paragraph -->
