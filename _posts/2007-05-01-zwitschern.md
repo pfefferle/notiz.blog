@@ -9,7 +9,10 @@ permalink: >
 published: true
 post_date: 2007-05-01 13:32:36
 ---
-<a href="http://blaugh.com/2007/03/22/are-you-a-twitter-ninja" rel="bookmark"><img class="comic aligncenter" title="Are You a Twitter Ninja?" alt="Are You a Twitter Ninja?" src="http://blaugh.com/cartoons/070322_twittering_ninja.gif" width="447" height="250"/></a>
+<!-- wp:image {"id":17578,"align":"center","linkDestination":"custom"} -->
+<div class="wp-block-image"><figure class="aligncenter"><a href="https://web.archive.org/web/20080323030034/http://blaugh.com/2007/03/22/are-you-a-twitter-ninja"><img src="https://notiz.blog/wp-content/uploads/2007/05/070322_twittering_ninja.gif" alt="" class="wp-image-17578"/></a></figure></div>
+<!-- /wp:image -->
 
-Also ich <a href="http://twitter.com/pfefferle">zwitschere</a> ja schon eine Weile, auch wenn mir meine Motivation dafür und der Sinn dahinter wirklich noch nicht klar ist :)
-Wahrscheinlich finde ich deshalb auch den Comic von <a href="http://blaugh.com/">Blaugh</a> so witzig...
+<!-- wp:paragraph -->
+<p>Also ich <a href="http://twitter.com/pfefferle">zwitschere</a> ja schon eine Weile, auch wenn mir meine Motivation dafür und der Sinn dahinter wirklich noch nicht klar ist :)<br/>Wahrscheinlich finde ich deshalb auch den Comic von <a href="http://blaugh.com/">Blaugh</a> so witzig...</p>
+<!-- /wp:paragraph -->
