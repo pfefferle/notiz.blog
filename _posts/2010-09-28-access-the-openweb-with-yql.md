@@ -26,8 +26,7 @@ post_date: 2010-09-28 00:02:51
 <!-- /wp:heading -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code>select * from microformats where
-url='http://wait-till-i.com'</code></pre>
+<pre class="wp-block-code"><code>select * from microformats where url='http://wait-till-i.com'</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:paragraph -->
@@ -43,8 +42,7 @@ url='http://wait-till-i.com'</code></pre>
 <!-- /wp:heading -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code>select * from openid.discover where
-normalizedId="http://www.yahoo.com/"</code></pre>
+<pre class="wp-block-code"><code>select * from openid.discover where normalizedId="http://www.yahoo.com/"</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:paragraph -->
@@ -52,8 +50,7 @@ normalizedId="http://www.yahoo.com/"</code></pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code>select * from openid.yadis where
-uri="http://www.yahoo.com/"</code></pre>
+<pre class="wp-block-code"><code>select * from openid.yadis where uri="http://www.yahoo.com/"</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:paragraph -->
@@ -70,9 +67,7 @@ uri="http://www.yahoo.com/"</code></pre>
 <!-- /wp:heading -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code>select * from oauth where uri='http://example.com'
-and consumerKey='asd123' and consumerSecret='zxc456'
-and callbackUri='http://example.com';</code></pre>
+<pre class="wp-block-code"><code>select * from oauth where uri='http://example.com' and consumerKey='asd123' and consumerSecret='zxc456' and callbackUri='http://example.com';</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:paragraph -->
@@ -84,10 +79,7 @@ and callbackUri='http://example.com';</code></pre>
 <!-- /wp:heading -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code>insert into pubsubhubbub.publisher
-(hub_url, topic_url) values
-('http://pubsubhubbub.appspot.com/publish',
-'http://developer.yahoo.com')</code></pre>
+<pre class="wp-block-code"><code>insert into pubsubhubbub.publisher (hub_url, topic_url) values ('http://pubsubhubbub.appspot.com/publish', 'http://developer.yahoo.com')</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:paragraph -->
@@ -99,8 +91,7 @@ and callbackUri='http://example.com';</code></pre>
 <!-- /wp:heading -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code>select * from webfinger where
-account='pfefferle@gmail.com'</code></pre>
+<pre class="wp-block-code"><code>select * from webfinger where account='pfefferle@gmail.com'</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:paragraph -->
@@ -124,8 +115,7 @@ account='pfefferle@gmail.com'</code></pre>
 <!-- /wp:heading -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code>select * from socialgraph.lookup where
-q = "notiz.blog" AND edo = "1"</code></pre>
+<pre class="wp-block-code"><code>select * from socialgraph.lookup where q = "notiz.blog" AND edo = "1"</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:paragraph -->
@@ -137,8 +127,7 @@ q = "notiz.blog" AND edo = "1"</code></pre>
 <!-- /wp:heading -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code>select * from atom where
-url='https://notiz.blog/feed/atom'</code></pre>
+<pre class="wp-block-code"><code>select * from atom where url='https://notiz.blog/feed/atom'</code></pre>
 <!-- /wp:code -->
 
 <!-- wp:paragraph -->
