@@ -10,7 +10,7 @@ published: true
 post_date: 2010-03-05 23:34:51
 ---
 <!-- wp:image {"align":"right"} -->
-<figure class="wp-block-image alignright" style="max-width:50%"><img src="https://notiz.blog/wp-content/uploads/2010/03/ostatus-stamp-box-150x194.png" alt="OStatus Logo" /></figure>
+<div class="wp-block-image"><figure class="alignright"><img src="https://notiz.blog/wp-content/uploads/2010/03/ostatus-stamp-box-150x194.png" alt="OStatus Logo"/></figure></div>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -18,18 +18,11 @@ post_date: 2010-03-05 23:34:51
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Nach fast zwei Jahren arbeitet <a href="http://status.net/">StatusNet</a> (früher <a href="http://laconi.ca">laconi.ca </a>und <em>Erfinder</em> von <abbr title="OpenMicroBlogging">OMB</abbr>) jetzt an einem Nachfolger. Die neue Spezifikation heißt <a href="http://ostatus.net">OStatus</a> und ist eine Art &quot;Best Off&quot; bestehender <em>Open Web Standards</em>:</p>
+<p>Nach fast zwei Jahren arbeitet <a href="http://status.net/">StatusNet</a> (früher <a href="http://laconi.ca">laconi.ca </a>und <em>Erfinder</em> von <abbr title="OpenMicroBlogging">OMB</abbr>) jetzt an einem Nachfolger. Die neue Spezifikation heißt <a href="http://ostatus.net">OStatus</a> und ist eine Art "Best Off" bestehender <em>Open Web Standards</em>:</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
-<ul>
-    <li><a href="http://activitystrea.ms/">Activity Streams</a> - Eine Atom-Erweiterung um Activities zu näher beschreiben</li>
-    <li><a href="http://code.google.com/p/pubsubhubbub/">PubSubHubbub</a> und <a href="http://rsscloud.org/">RSSCloud</a> - Atom und RSS Feeds dezentral und in echtzeit ausliefern</li>
-    <li><a href="http://www.salmon-protocol.org/">Salmon</a> - Dezentral kommentieren</li>
-    <li><a href="http://code.google.com/p/webfinger/">Webfinger</a> - E-Mail - Adressen als Identifier</li>
-    <li><a href="http://microsyntax.org">Microsyntax</a> - Semantisch microbloggen</li>
-    <li><a href="http://openid.net">OpenID</a> - Single-Sign-On System</li>
-</ul>
+<ul><li><a href="http://activitystrea.ms/">Activity Streams</a> - Eine Atom-Erweiterung um Activities zu näher beschreiben</li><li><a href="http://code.google.com/p/pubsubhubbub/">PubSubHubbub</a> und <a href="http://rsscloud.org/">RSSCloud</a> - Atom und RSS Feeds dezentral und in echtzeit ausliefern</li><li><a href="http://www.salmon-protocol.org/">Salmon</a> - Dezentral kommentieren</li><li><a href="http://code.google.com/p/webfinger/">WebFinger</a> - E-Mail - Adressen als Identifier</li><li><a href="http://microsyntax.org">Microsyntax</a> - Semantisch microbloggen</li><li><a href="http://openid.net">OpenID</a> - Single-Sign-On System</li></ul>
 <!-- /wp:list -->
 
 <!-- wp:paragraph -->
@@ -41,7 +34,7 @@ post_date: 2010-03-05 23:34:51
 <!-- /wp:paragraph -->
 
 <!-- wp:separator -->
-<hr class="wp-block-separator" />
+<hr class="wp-block-separator"/>
 <!-- /wp:separator -->
 
 <!-- wp:paragraph -->
