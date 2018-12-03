@@ -34,9 +34,7 @@ post_date: 2010-08-11 20:26:51
 <!-- /wp:paragraph -->
 
 <!-- wp:quote -->
-<blockquote class="wp-block-quote">
-	<p>The goal of add-on is to experiment in evolving the address book of Thunderbird beyond what it currently is today. Thunderbird Contacts isn’t a standalone address book, instead it understands that your contacts live on the web as much as they do inside Thunderbird. The add-on can pull in contact data from various services where your contacts already exist.</p>
-</blockquote>
+<blockquote class="wp-block-quote"><p>The goal of add-on is to experiment in evolving the address book of Thunderbird beyond what it currently is today. Thunderbird Contacts isn’t a standalone address book, instead it understands that your contacts live on the web as much as they do inside Thunderbird. The add-on can pull in contact data from various services where your contacts already exist.</p></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:paragraph -->
@@ -51,20 +49,19 @@ post_date: 2010-08-11 20:26:51
 <p>AOL implementiert Webfinger für <em>@aol.com</em> und <em>@aim.com</em>.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:preformatted -->
-<pre class="wp-block-preformatted">&lt;?xml version='1.0' encoding='UTF-8'?>
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;?xml version='1.0' encoding='UTF-8'?>
 &lt;XRD xmlns='http://docs.oasis-open.org/ns/xri/xrd-1.0'>
-    &lt;!-- Host-wide Information -->
-    &lt;Link rel='http://specs.openid.net/auth/2.0/provider' href='https://api.screenname.aol.com/auth/openidServer'>
-        &lt;Title>OpenID 2.0 Provider&lt;/Title>
-    &lt;/Link>
-    &lt;!-- Resource-specific Information -->
-    &lt;Link rel='lrdd' template='https://api.screenname.aol.com/auth/describe?uri={uri}'>
-        &lt;Title>Resource Descriptor&lt;/Title>
-    &lt;/Link>
-&lt;/XRD>
-</pre>
-<!-- /wp:preformatted -->
+  &lt;!-- Host-wide Information -->
+  &lt;Link rel='http://specs.openid.net/auth/2.0/provider' href='https://api.screenname.aol.com/auth/openidServer'>
+    &lt;Title>OpenID 2.0 Provider&lt;/Title>
+  &lt;/Link>
+  &lt;!-- Resource-specific Information -->
+  &lt;Link rel='lrdd' template='https://api.screenname.aol.com/auth/describe?uri={uri}'>
+    &lt;Title>Resource Descriptor&lt;/Title>
+  &lt;/Link>
+&lt;/XRD></code></pre>
+<!-- /wp:code -->
 
 <!-- wp:paragraph -->
 <p>» <a href="http://practicalid.blogspot.com/2010/08/webfinger-enabled-for-aolcom.html">Webfinger enabled for @aol.com</a></p>
